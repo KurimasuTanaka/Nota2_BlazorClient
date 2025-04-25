@@ -1,0 +1,12 @@
+﻿@page "/"
+
+<PageTitle>Home</PageTitle>
+
+<MudItem Class="align-center">
+    <MudTextField @bind-Value="inputValue" Variant="Variant.Outlined"></MudTextField>
+</MudItem>
+
+@code
+{
+    public string inputValue = String.Empty;
+}
